@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <label>Amount</label>
+        <input type="number" id="num">
+        <label>Description</label>
+        <input type="text" id="text">
+        <label>Category</label>
+        <select id="op">
+            <option value="trip">Trip</option>
+            <option value="ticket">Ticket</option>
+            <option value="parking">Parking</option>
+            <option value="fuel">Fual</option>
+          </select>
+          <button>Add</button>
+    </form>
+    <ul id="list"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
